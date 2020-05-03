@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Weather from "./Components/weatherComponent";
-
+import "weather-icons/css/weather-icons.css";
 import { Component } from "react";
 import Form from "./Components/formComponent";
 
@@ -90,7 +90,7 @@ class App extends Component {
 
     if (city && country) {
       const api_call = await fetch(
-        `http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_key}`
+        `https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_key}`
       );
       const response = await api_call.json();
 
