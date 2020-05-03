@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
-import Weather from "./Components/weather-component";
+import Weather from "./Components/weatherComponent";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "weather-icons/css/weather-icons.css";
 import { Component } from "react";
-import Form from "./Components/form-component";
+import Form from "./Components/formComponent";
 
 const API_key = "5f92c3d98b8abaaa492769f9aa1fc1bf";
 
