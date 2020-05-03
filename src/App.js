@@ -1,8 +1,7 @@
 import React from "react";
 import "./App.css";
 import Weather from "./Components/weatherComponent";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "weather-icons/css/weather-icons.css";
+
 import { Component } from "react";
 import Form from "./Components/formComponent";
 
